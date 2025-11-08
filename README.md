@@ -108,7 +108,7 @@ DEVICE = torch.device(...)
 
 训练完成后，损失曲线将自动保存在 `results/loss_curve.png`。
 
-![Loss Curve](results/loss_curve.png)
+![Loss Curve](results/Loss_Curve.png)
 
 ### 最终评估 (BLEU Score)
 
