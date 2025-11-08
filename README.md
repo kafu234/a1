@@ -122,13 +122,13 @@ DEVICE = torch.device(...)
 
 | 参数 (Parameter) | 值 (Value) | 描述 |
 | :--- | :--- | :--- |
-| `D_MODEL` | 512 | [cite_start]嵌入和模型维度 [cite: 80] |
-| `N_HEADS` | 8 | [cite_start]注意力头数 [cite: 80] |
-| `NUM_LAYERS` | 6 | [cite_start]编码器/解码器层数 |
-| `D_FF` | 2048 | [cite_start]前馈网络内部维度|
+| `D_MODEL` | 512 |嵌入和模型维度 |
+| `N_HEADS` | 8 | 注意力头数  |
+| `NUM_LAYERS` | 6 |编码器/解码器层数 |
+| `D_FF` | 2048 | 前馈网络内部维度|
 | `DROPOUT` | 0.1 | Dropout 比例 |
 | `MAX_SEQ_LENGTH` | 128 | 最大序列长度 |
 | `window_size` | 64 | `ManualSparseAttention` 的窗口半径 |
-| `BATCH_SIZE` | 128 | [cite_start]批次大小 |
-| `LEARNING_RATE` | 1e-4 | [cite_start]学习率 |
+| `BATCH_SIZE` | 128 | 批次大小 |
+| `LEARNING_RATE` | 1e-4 |学习率 |
 | `EPOCHS` | 15 | 训练周期 |
