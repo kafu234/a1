@@ -31,7 +31,7 @@
 ├── src/
 │   └── main.py        # 包含所有模型、训练和评估逻辑的主文件
 └── results/
-    └── loss_curve.png  # 训练后生成的损失曲线图
+    └── Loss_Curve.png  # 训练后生成的损失曲线图
 ```
 
 ## 🚀 快速开始
