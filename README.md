@@ -77,7 +77,7 @@ chmod +x scripts/run.sh
 2.  在本地训练 `tokenizer_en.json` 和 `tokenizer_de.json` (如果它们不存在)。
 3.  使用 `train.py` 中定义的超参数开始 15 个 Epochs 的训练。
 4.  训练完成后，在验证集上计算并打印最终的 BLEU 分数。
-5. 将训练/验证损失曲线图保存到 `results/loss_curve.png` 。
+5. 将训练/验证损失曲线图保存到 `results/Loss_Curve.png` 。
 
 ---
 #### (重要) 关于随机种子的说明
