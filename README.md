@@ -106,7 +106,7 @@ DEVICE = torch.device(...)
 
 ### 训练曲线
 
-训练完成后，损失曲线将自动保存在 `results/loss_curve.png`。
+训练完成后，损失曲线将自动保存在 `results/Loss_Curve.png`。
 
 ![Loss Curve](results/Loss_Curve.png)
 
